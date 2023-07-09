@@ -15,7 +15,7 @@ C:/Users/qingc/OneDrive - McGill University/Unity/My project/SpaceShooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57214
+62584
 Successfully changed project path to: C:/Users/qingc/OneDrive - McGill University/Unity/My project/SpaceShooter
 C:/Users/qingc/OneDrive - McGill University/Unity/My project/SpaceShooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/qingc/OneDrive - McGill University/Unity/My project/SpaceShooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 129.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 190.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,46 +63,174 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.293237 seconds.
+Registered in 0.013634 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 180.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.405 seconds
+- Completed reload, in  1.164 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5406ms)
-		BeginReloadAssembly (3545ms)
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1113ms)
-			LoadAssemblies (3541ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (725ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (526ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
+				InitializePlatformSupportModulesInManaged (111ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (181ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011951 seconds.
+Registered in 0.010774 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\qingc\OneDrive - McGill University\Unity\My project\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\qingc\OneDrive - McGill University\Unity\My project\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.353 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2355ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1910ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1079ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (280ms)
+				ProcessInitializeOnLoadAttributes (677ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3810.
+Memory consumption went from 115.4 MB to 115.3 MB.
+Total: 3.913400 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.098500 ms MarkObjects: 3.408500 ms  DeleteObjects: 0.173500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 287845.473064 seconds.
+  path: Assets/Prefabs/SpaceCraft.prefab
+  artifactKey: Guid(2f90f4b8ca681b244b5a08191bbba9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpaceCraft.prefab using Guid(2f90f4b8ca681b244b5a08191bbba9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a43c23c3c15c3133fff529486dc7f20') in 0.296494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.951449 seconds.
+  path: Assets/Prefabs/EnemySpaceCraft  Variant.prefab
+  artifactKey: Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemySpaceCraft  Variant.prefab using Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2333a6b49e990df727cec7d799449e8') in 0.028627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.127940 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials
+  artifactKey: Guid(aa4a9265759707540a93dac962638532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials using Guid(aa4a9265759707540a93dac962638532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ffbfb422bf66fed8f8e60daea3da61') in 0.022324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038357 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/_defaultMat.mat
+  artifactKey: Guid(df0665fb25fa0b148ab5fda04ba968f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/_defaultMat.mat using Guid(df0665fb25fa0b148ab5fda04ba968f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d339198921ddbd7d62d418fa960dcab') in 0.096991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/net.mat
+  artifactKey: Guid(447a0a52dd46bce489df267d43df6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/net.mat using Guid(447a0a52dd46bce489df267d43df6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0473bc0451246853a638b82c1a2b863d') in 0.080011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/astronaut.mat
+  artifactKey: Guid(94ab255f25bf11444a6c598514a337d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/astronaut.mat using Guid(94ab255f25bf11444a6c598514a337d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bc75cfc4103ce462fecdeff4302ca1') in 0.047882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/alienBone.mat
+  artifactKey: Guid(0e88d84c80bec4146a07e3286cb38d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/alienBone.mat using Guid(0e88d84c80bec4146a07e3286cb38d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835d0f78e2f94eb211650230a0b4eb4a') in 0.038589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/metal.mat
+  artifactKey: Guid(3683da1fdd020614388a57f70b8b8bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/metal.mat using Guid(3683da1fdd020614388a57f70b8b8bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a5ab176ced40cf2b9d4df8647e1fc4') in 0.023486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/pipe.mat
+  artifactKey: Guid(298ec1453cb19d641ad88172d2ad6eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/pipe.mat using Guid(298ec1453cb19d641ad88172d2ad6eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c60931ab13af579c8c1b68daf04ae46') in 0.030623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/alienPlant.mat
+  artifactKey: Guid(e66398ec4b317644eae7ce6f1706fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/alienPlant.mat using Guid(e66398ec4b317644eae7ce6f1706fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37575b6271439d5cb854d32a9e8afe28') in 0.023757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/Materials/light.mat
+  artifactKey: Guid(3c34ebeb9612f1642b9cea21a35766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/Materials/light.mat using Guid(3c34ebeb9612f1642b9cea21a35766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5ef49b7d1111ba1e800d174b7361f6') in 0.031345 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

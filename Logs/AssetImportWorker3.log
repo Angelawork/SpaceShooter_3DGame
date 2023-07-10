@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker2
+AssetImportWorker3
 -projectPath
 C:/Users/qingc/OneDrive - McGill University/Unity/My project/SpaceShooter
 -logFile
-Logs/AssetImportWorker2.log
+Logs/AssetImportWorker3.log
 -srvPort
 49990
 Successfully changed project path to: C:/Users/qingc/OneDrive - McGill University/Unity/My project/SpaceShooter
@@ -47,7 +47,7 @@ C:/Users/qingc/OneDrive - McGill University/Unity/My project/SpaceShooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 196.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 161.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,49 +63,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018598 seconds.
+Registered in 0.010278 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 184.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 114.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.391 seconds
+- Completed reload, in  1.105 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1392ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (977ms)
-			LoadAssemblies (156ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (554ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (442ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (103ms)
+				InitializePlatformSupportModulesInManaged (77ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (185ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009163 seconds.
+Registered in 0.008839 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\qingc\OneDrive - McGill University\Unity\My project\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\qingc\OneDrive - McGill University\Unity\My project\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -115,43 +115,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.997 seconds
+- Completed reload, in  1.788 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1999ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (1790ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1650ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1396ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (499ms)
+			SetupTypeCache (349ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (832ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (730ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (532ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
-				AfterProcessingInitializeOnLoad (23ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3815.
+Unloading 27 unused Assets / (113.3 KB). Loaded Objects now: 3815.
 Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 6.585100 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.155500 ms MarkObjects: 5.930100 ms  DeleteObjects: 0.202700 ms)
+Total: 5.325900 ms (FindLiveObjects: 0.408200 ms CreateObjectMapping: 0.122500 ms MarkObjects: 4.614200 ms  DeleteObjects: 0.179200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,58 +166,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 341576.338733 seconds.
-  path: Assets/Prefabs/SpaceCraft .prefab
-  artifactKey: Guid(bde86911da6db864aa395f858262f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SpaceCraft .prefab using Guid(bde86911da6db864aa395f858262f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5a88d27d92b37b5c66f8bea3a1c8e6') in 0.210081 seconds 
+  Time since last request: 341944.670445 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/meteorFullRound.fbx
+  artifactKey: Guid(d561111543fa7014bbc136b79a121cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/meteorFullRound.fbx using Guid(d561111543fa7014bbc136b79a121cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae79c38abdb038a206bfbeab15e21ad') in 0.321032 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.456918 seconds.
-  path: Assets/Prefabs/EnemySpaceCraft .prefab
-  artifactKey: Guid(2cca33000d813814689cd19c55c9d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemySpaceCraft .prefab using Guid(2cca33000d813814689cd19c55c9d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0262710b767918fdebe04f25060ca98') in 0.034573 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/rocksTall.fbx
+  artifactKey: Guid(2458c97181da62a439d20311af32f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/rocksTall.fbx using Guid(2458c97181da62a439d20311af32f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26d7dc54b87bd9247c665cb4c7e4c13') in 0.046814 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.331913 seconds.
-  path: Assets/Prefabs/EnemySpaceCraft  Variant.prefab
-  artifactKey: Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemySpaceCraft  Variant.prefab using Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50acb7426d75aeb3086509a597300e91') in 0.021670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.008907 seconds.
-  path: Assets/Prefabs/EnemySpaceCraft  Variant.prefab
-  artifactKey: Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemySpaceCraft  Variant.prefab using Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff37643483edd9a23b7e992c6eae570') in 0.019959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.893114 seconds.
-  path: Assets/Prefabs/EnemySpaceCraft  Variant.prefab
-  artifactKey: Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemySpaceCraft  Variant.prefab using Guid(7110f8badaeeffc43bfd4290325eabcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dcbb2dd53570cf365ef2116379b410') in 0.025867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 132.337200 seconds.
-  path: Assets/Model/Kenney Assets/Space Kit/Models/consoleScreen.fbx
-  artifactKey: Guid(b6b6f3e8e07ffdc4db0d0031f74ae32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Kenney Assets/Space Kit/Models/consoleScreen.fbx using Guid(b6b6f3e8e07ffdc4db0d0031f74ae32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e3a6366627b2fcb8765049e43639fe') in 0.159957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Model/Kenney Assets/Space Kit/Models/groundTile.fbx
-  artifactKey: Guid(884e5afedfb25b04895157a0121d1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Kenney Assets/Space Kit/Models/groundTile.fbx using Guid(884e5afedfb25b04895157a0121d1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15fbb43ad4640c286286fac587ace2e') in 0.059619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.934554 seconds.
-  path: Assets/Model/Kenney Assets/Space Kit/Models/Textures
-  artifactKey: Guid(54353b2fced16824fb94fcce2840a1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Kenney Assets/Space Kit/Models/Textures using Guid(54353b2fced16824fb94fcce2840a1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf34506742d363b2268ec8ecf28bc4c') in 0.010660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022578 seconds.
-  path: Assets/Model/Kenney Assets/Space Kit/Models/Textures/alien.png
-  artifactKey: Guid(93f3cba1a974c544594f3575d83bfdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Kenney Assets/Space Kit/Models/Textures/alien.png using Guid(93f3cba1a974c544594f3575d83bfdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83691727965447749db3183e02d24974') in 0.045042 seconds 
+  Time since last request: 0.000058 seconds.
+  path: Assets/Model/Kenney Assets/Space Kit/Models/rocksOre.fbx
+  artifactKey: Guid(c19b84b7034a2e640af2244b6fae89be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Kenney Assets/Space Kit/Models/rocksOre.fbx using Guid(c19b84b7034a2e640af2244b6fae89be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b457a634f38e8e1be499d0f6fc4ff66') in 0.055277 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

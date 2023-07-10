@@ -159,6 +159,7 @@ GameObject:
   - component: {fileID: 3830764276696099635}
   - component: {fileID: 269245438528870554}
   - component: {fileID: 4172211550761712624}
+  - component: {fileID: 412227594}
   m_Layer: 0
   m_Name: 'SpaceCraft '
   m_TagString: Untagged
@@ -214,6 +215,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &412227594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7514870290682239715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82019fd128405a944a15634fd976051b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 30
+  rotationSpeed: 15
+  laserPrefab: {fileID: 1545404234830769831, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+  reCalTransform: {fileID: 0}
+  shootPosArray:
+  - {fileID: 1757563621920818241}
+  - {fileID: 4534014126700673244}
 --- !u!1 &7657079819628681471
 GameObject:
   m_ObjectHideFlags: 0

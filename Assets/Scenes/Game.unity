@@ -271,11 +271,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3474475083326284615, guid: f8e4d627bbfb848438ff6c6c90781cbe, type: 3}
   m_PrefabInstance: {fileID: 107598424}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &189743880 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1757563621920818241, guid: bde86911da6db864aa395f858262f640, type: 3}
-  m_PrefabInstance: {fileID: 8225756420243914432}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &213480055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3624452264325116815, guid: cbccf13ef8eae044a9c37968eb75c7a6, type: 3}
@@ -356,7 +351,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7514870290682239715, guid: bde86911da6db864aa395f858262f640, type: 3}
   m_PrefabInstance: {fileID: 8225756420243914432}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &412227594
+--- !u!114 &412227598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -365,16 +360,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 412227593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82019fd128405a944a15634fd976051b, type: 3}
+  m_Script: {fileID: 11500000, guid: 67492bef1b7b7914588b27b685e6e296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 30
-  rotationSpeed: 15
-  laserPrefab: {fileID: 1545404234830769831, guid: f06f8799e72956d428b4630552134e2d, type: 3}
   reCalTransform: {fileID: 1595083036}
-  shootPosArray:
-  - {fileID: 189743880}
-  - {fileID: 1499890201}
 --- !u!1001 &495745408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1925,11 +1914,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3474475083326284615, guid: f8e4d627bbfb848438ff6c6c90781cbe, type: 3}
   m_PrefabInstance: {fileID: 1412323387}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1499890201 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4534014126700673244, guid: bde86911da6db864aa395f858262f640, type: 3}
-  m_PrefabInstance: {fileID: 8225756420243914432}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1555168707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2680,6 +2664,10 @@ PrefabInstance:
       propertyPath: reCalTransform
       value: 
       objectReference: {fileID: 1595083036}
+    - target: {fileID: 2408108691491010748, guid: 7110f8badaeeffc43bfd4290325eabcd, type: 3}
+      propertyPath: reCalTransform
+      value: 
+      objectReference: {fileID: 1595083036}
     - target: {fileID: 5269630127796943445, guid: 7110f8badaeeffc43bfd4290325eabcd, type: 3}
       propertyPath: m_Name
       value: 'EnemySpaceCraft '
@@ -2899,6 +2887,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 412227594, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: reCalTransform
+      value: 
+      objectReference: {fileID: 1595083036}
     - target: {fileID: 3830764276696099635, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2946,10 +2938,6 @@ PrefabInstance:
     - target: {fileID: 7514870290682239715, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: m_Name
       value: 'SpaceCraft '
-      objectReference: {fileID: 0}
-    - target: {fileID: 7514870290682239715, guid: bde86911da6db864aa395f858262f640, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bde86911da6db864aa395f858262f640, type: 3}

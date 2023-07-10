@@ -16,6 +16,8 @@ public class SpaceCraftController : MonoBehaviour
         _Rigidbody = GetComponent<Rigidbody>();
         _Transform = GetComponent<Transform>();
     }
+
+    /*
     void Update()
     {
         Vector3 moveDir = new Vector3(Input.GetAxis("Horizontal"),0,Input.GetAxis("Vertical"));
@@ -33,10 +35,10 @@ public class SpaceCraftController : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.UpArrow)){
             Movement(Vector3.zero);
         }
-        */
-        
-    }
-    void Movement(Vector3 dir){
+        // 
+    }*/
+    
+    public void Movement(Vector3 dir){
         _Rigidbody.velocity = dir*moveSpeed;
         if(dir!=Vector3.zero){
             Quaternion rotationValue = Quaternion.LookRotation(dir);
@@ -44,7 +46,7 @@ public class SpaceCraftController : MonoBehaviour
         }
     }
 
-    void ShootLaser(){
+    public void ShootLaser(){
         for(int i=0; i<shootPosArray.Length; i++){
             Instantiate(laserPrefab, shootPosArray[i].position, shootPosArray[0].rotation);
         }

@@ -9,7 +9,7 @@ public class SightTrigger : MonoBehaviour
     public float targetDis;
     public float targetAngle;
     void Awake() {
-        _Transform = GetComponent<_Transform>();
+        _Transform = GetComponent<Transform>();
     }
     void Update()
     {

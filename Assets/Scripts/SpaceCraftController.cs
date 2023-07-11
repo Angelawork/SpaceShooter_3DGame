@@ -6,6 +6,9 @@ public class SpaceCraftController : MonoBehaviour
 {
     public float moveSpeed = 30;
     public float rotationSpeed = 15;
+    public float shootTime = 0.5f;
+    float timer;
+    float shootCoolDownTime;
     public GameObject laserPrefab;
     public Transform reCalTransform;
     public Transform[] shootPosArray;
@@ -17,9 +20,12 @@ public class SpaceCraftController : MonoBehaviour
         _Transform = GetComponent<Transform>();
     }
 
-    /*
+    
     void Update()
     {
+        timer+=Time.deltaTime;
+    }
+        /*
         Vector3 moveDir = new Vector3(Input.GetAxis("Horizontal"),0,Input.GetAxis("Vertical"));
         moveDir = reCalTransform.TransformDirection(moveDir);
         Movement(moveDir);
@@ -35,8 +41,8 @@ public class SpaceCraftController : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.UpArrow)){
             Movement(Vector3.zero);
         }
-        // 
-    }*/
+        //
+        */
     
     public void Movement(Vector3 dir){
         _Rigidbody.velocity = dir*moveSpeed;
@@ -45,8 +51,18 @@ public class SpaceCraftController : MonoBehaviour
             _Transform.rotation = Quaternion.Slerp(_Transform.rotation, rotationValue, Time.deltaTime * rotationSpeed);
         }
     }
+    public void Movement(float dirV, float dirH){
+        _Rigidbody.velocity = transform.forward*dirV*moveSpeed;
+        _Transform.Rotate(transform.up, dirH*Time.deltaTime*rotationSpeed, Space.World);
+    }
 
     public void ShootLaser(){
+        if(timer>=shootCoolDownTime){
+            shootCoolDownTime = timer+shootTime;
+            CreateLaser();
+        }
+    }
+    public void CreateLaser(){
         for(int i=0; i<shootPosArray.Length; i++){
             Instantiate(laserPrefab, shootPosArray[i].position, shootPosArray[0].rotation);
         }

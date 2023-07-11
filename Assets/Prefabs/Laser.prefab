@@ -127,3 +127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29dec36ff33117542928d581a2e5564f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 100
+  lifeTime: 1.1
+  isPlayerLaser: 1

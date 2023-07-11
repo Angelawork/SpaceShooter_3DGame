@@ -59,5 +59,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyLaser Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2392178573254336611, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+      propertyPath: isPlayerLaser
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06f8799e72956d428b4630552134e2d, type: 3}

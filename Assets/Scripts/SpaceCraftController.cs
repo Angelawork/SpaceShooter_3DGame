@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpaceCraftController : MonoBehaviour
 {
+    public int healthPoint = 10;
     public float moveSpeed = 30;
     public float rotationSpeed = 15;
     public float shootTime = 0.5f;
@@ -65,6 +66,12 @@ public class SpaceCraftController : MonoBehaviour
     public void CreateLaser(){
         for(int i=0; i<shootPosArray.Length; i++){
             Instantiate(laserPrefab, shootPosArray[i].position, shootPosArray[0].rotation);
+        }
+    }
+    public void UnderAttack(int value){
+        healthPoint-=value;
+        if(healthPoint<=0){
+            Destroy(gameObject);
         }
     }
 }

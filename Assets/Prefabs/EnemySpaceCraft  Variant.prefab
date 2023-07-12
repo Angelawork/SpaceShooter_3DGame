@@ -68,6 +68,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.ctime1
+      value: 29298
+      objectReference: {fileID: 0}
+    - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.6662123
+      objectReference: {fileID: 0}
+    - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.30320394
+      objectReference: {fileID: 0}
+    - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.40943396
+      objectReference: {fileID: 0}
+    - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0.8934417
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043335966764596535, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3830764276696099635, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -116,6 +148,54 @@ PrefabInstance:
       propertyPath: reCalTransform
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4126217641438312577, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.ctime1
+      value: 28527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126217641438312577, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.6662123
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126217641438312577, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126217641438312577, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.30320394
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126217641438312577, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126217641438312577, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.40943396
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126217641438312577, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0.8934417
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905637757797683, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.4627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905637757797683, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.24871837
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905637757797683, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.8396226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149905637757797683, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.45793727
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366570892182974501, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7514870290682239715, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: m_Name
       value: EnemySpaceCraft  Variant
@@ -127,6 +207,10 @@ PrefabInstance:
     - target: {fileID: 7514870290682239715, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675567689278894934, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8432295653926513807, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: m_Materials.Array.data[0]

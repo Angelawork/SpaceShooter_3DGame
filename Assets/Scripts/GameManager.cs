@@ -39,9 +39,13 @@ public class GameManager : MonoBehaviour
         }
     }
     public void GameFail(){
+        Invoke(nameof(DelayedGameFail),1.0f);
+    }
+    public void DelayedGameFail(){
         panelGameOver.SetActive(true);
         PanelText.text = "GameOver!";
     }
+
     public void ResetGame(){
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
     }

@@ -18,10 +18,13 @@ public class SpaceCraftController : MonoBehaviour
     private Transform _Transform;
     private Rigidbody _Rigidbody;
     bool isAlive=true;
+    private AudioSource _AudioSource;
+    public AudioClip[] _lasersound;
 
     void Awake(){
         _Rigidbody = GetComponent<Rigidbody>();
         _Transform = GetComponent<Transform>();
+        _AudioSource = GetComponent<AudioSource>();
     }
 
     
@@ -67,6 +70,9 @@ public class SpaceCraftController : MonoBehaviour
         }
     }
     public void CreateLaser(){
+        int number = Random.Range(0, _lasersound.Length);
+        _AudioSource.PlayOneShot(_lasersound[number]);
+
         for(int i=0; i<shootPosArray.Length; i++){
             Instantiate(laserPrefab, shootPosArray[i].position, shootPosArray[0].rotation);
         }

@@ -15,6 +15,7 @@ public class SpaceCraftController : MonoBehaviour
     public Transform[] shootPosArray;
     private Transform _Transform;
     private Rigidbody _Rigidbody;
+    bool isAlive=true;
 
     void Awake(){
         _Rigidbody = GetComponent<Rigidbody>();
@@ -71,7 +72,16 @@ public class SpaceCraftController : MonoBehaviour
     public void UnderAttack(int value){
         healthPoint-=value;
         if(healthPoint<=0){
-            Destroy(gameObject);
+            Dead();
         }
+    }
+    void Dead(){
+        isAlive = false;
+        if(gameObject.CompareTag("Player")){
+            GameManager.singleton.GameFail();
+        }else if(gameObject.CompareTag("Enemy")){
+            GameManager.singleton.GetScore();
+        }
+        Destroy(gameObject);
     }
 }

@@ -2103,7 +2103,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dc7eb94056b536a4a9f810db7b171332, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56f8165bc8b0a98419e06f018a808c4c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3096,7 +3096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8, y: -109}
+  m_AnchoredPosition: {x: 8, y: -115}
   m_SizeDelta: {x: -700, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1568652603
@@ -3182,7 +3182,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -172.69885, y: 0, z: -146.38281, w: 0}
+  m_margin: {x: -285.52722, y: -45.131348, z: -281.77673, w: -17.730164}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3340,6 +3340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1595083036}
+  - component: {fileID: 1595083037}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3362,6 +3363,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1595083037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595083035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a9648bbd5b96424eaaa60f9999af9c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScore: 0
+  quitScore: 1
+  panelGameOver: {fileID: 1054033424}
+  PanelText: {fileID: 1568652603}
+  scoreText: {fileID: 114988398}
 --- !u!1001 &1658448757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4362,6 +4380,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1595083036}
     - target: {fileID: 2408108691491010748, guid: 7110f8badaeeffc43bfd4290325eabcd, type: 3}
+      propertyPath: healthPoint
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2408108691491010748, guid: 7110f8badaeeffc43bfd4290325eabcd, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 2408649454026297255, guid: d7710e9963f8b0f4ab01d19872c3b9ce, type: 3}
@@ -4598,7 +4620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 412227594, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: healthPoint
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 412227594, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: reCalTransform

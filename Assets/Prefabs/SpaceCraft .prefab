@@ -5344,7 +5344,7 @@ MonoBehaviour:
   healthPoint: 10
   moveSpeed: 30
   rotationSpeed: 15
-  shootTime: 0.5
+  shootTime: 0.2
   laserPrefab: {fileID: 1545404234830769831, guid: f06f8799e72956d428b4630552134e2d, type: 3}
   reCalTransform: {fileID: 0}
   shootPosArray:

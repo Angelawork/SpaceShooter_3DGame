@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
         }
     }
     public void GameFail(){
-        Invoke(nameof(DelayedGameFail),1.0f);
+        Invoke(nameof(DelayedGameFail),1.0f);//delay 1 sec
     }
     public void DelayedGameFail(){
         panelGameOver.SetActive(true);

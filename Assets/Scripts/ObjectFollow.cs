@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectFollow : MonoBehaviour
 {
-    Vector3 offsetPos = new Vector3(-7.6f,56f,-49.8f);
+    Vector3 offsetPos = new Vector3(-12.9f,47.9f,-68.7f);
     public Transform target;
     void Update()
     {

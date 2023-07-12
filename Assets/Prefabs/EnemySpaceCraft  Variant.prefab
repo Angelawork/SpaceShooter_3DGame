@@ -68,6 +68,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 412227594, guid: bde86911da6db864aa395f858262f640, type: 3}
+      propertyPath: shootTime
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 488540117980785969, guid: bde86911da6db864aa395f858262f640, type: 3}
       propertyPath: m_Parameters.colorGradient.ctime1
       value: 29298

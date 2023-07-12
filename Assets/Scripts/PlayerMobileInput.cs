@@ -8,7 +8,7 @@ public class PlayerMobileInput : MonoBehaviour
     SpaceCraftController _Controller;
     public Transform reCalTransform;
     private bool isShoot = false;
-    private void Awake() {
+    void Awake() {
         _Controller  =GetComponent<SpaceCraftController>();
     }
     void Update()

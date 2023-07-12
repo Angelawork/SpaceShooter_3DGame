@@ -593,6 +593,7 @@ GameObject:
   - component: {fileID: 422313649}
   - component: {fileID: 422313648}
   - component: {fileID: 422313647}
+  - component: {fileID: 422313650}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -664,7 +665,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 422313648}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1595083037}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ResetGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &422313648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,6 +716,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422313645}
   m_CullTransparentMesh: 1
+--- !u!95 &422313650
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422313645}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 502fad237d5f99c47a443bf6743d52ab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &495745408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -785,6 +818,7 @@ GameObject:
   - component: {fileID: 529855593}
   - component: {fileID: 529855592}
   - component: {fileID: 529855591}
+  - component: {fileID: 529855594}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -856,7 +890,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 529855592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1595083037}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &529855592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,6 +941,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529855589}
   m_CullTransparentMesh: 1
+--- !u!95 &529855594
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529855589}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a938b7e862a85849b0f745eb0bb9f4b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &596811901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2707,6 +2773,7 @@ GameObject:
   - component: {fileID: 1314125477}
   - component: {fileID: 1314125479}
   - component: {fileID: 1314125478}
+  - component: {fileID: 1314125480}
   m_Layer: 5
   m_Name: JoyStick
   m_TagString: Untagged
@@ -2773,6 +2840,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314125476}
   m_CullTransparentMesh: 1
+--- !u!114 &1314125480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314125476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44283f88f1a627a4b953e09ec67406bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1384658615
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -71,6 +71,9 @@ public class SpaceCraftController : MonoBehaviour
     }
     public void UnderAttack(int value){
         healthPoint-=value;
+        if(gameObject.CompareTag("Player")){
+            GameManager.singleton.UpdateHealthPoint(healthPoint);
+        }
         if(healthPoint<=0){
             Dead();
         }

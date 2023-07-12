@@ -7,6 +7,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public Slider healthPointerBar;
     public static GameManager singleton;
     public int currentScore = 0;
     public int quitScore = 3;
@@ -21,6 +22,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         panelGameOver.SetActive(false);
+        healthPointerBar.maxValue = GameObject.FindGameObjectWithTag("Player").GetComponent<SpaceCraftController>().healthPoint;
+        healthPointerBar.value = healthPointerBar.maxValue;
     }
     void Update()
     {
@@ -44,5 +47,8 @@ public class GameManager : MonoBehaviour
     }
     public void QuitGame(){
         Application.Quit();
+    }
+    public void UpdateHealthPoint(int value){
+        healthPointerBar.value=value;
     }
 }

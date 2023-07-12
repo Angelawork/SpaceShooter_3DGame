@@ -63,5 +63,29 @@ PrefabInstance:
       propertyPath: isPlayerLaser
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2611007603940355766, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611007603940355766, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611007603940355766, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611007603940355766, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0.7020224
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611007603940355766, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.23018867
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611007603940355766, guid: f06f8799e72956d428b4630552134e2d, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06f8799e72956d428b4630552134e2d, type: 3}

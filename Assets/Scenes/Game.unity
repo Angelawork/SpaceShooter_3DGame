@@ -5069,6 +5069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'EnemySpaceCraft '
       objectReference: {fileID: 0}
+    - target: {fileID: 8373186218584827269, guid: 7110f8badaeeffc43bfd4290325eabcd, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.76862746
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7110f8badaeeffc43bfd4290325eabcd, type: 3}
 --- !u!1001 &3109152948703141437

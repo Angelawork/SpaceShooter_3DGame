@@ -7,6 +7,7 @@ public class LaserController : MonoBehaviour
     public float moveSpeed = 100;
     public float lifeTime = 1.1f;
     public bool isPlayerLaser;
+    public GameObject breakParticle;
 
     void Start(){
         Destroy(gameObject, lifeTime);
@@ -17,14 +18,18 @@ public class LaserController : MonoBehaviour
     }
     void OnTriggerEnter(Collider other) {
          if(other.CompareTag("Ground")){
-            Destroy(gameObject);
+            DestroyLaser();
          }
          if(isPlayerLaser && other.CompareTag("Enemy")){
             other.GetComponent<SpaceCraftController>().UnderAttack(1);
-            Destroy(gameObject);
+            DestroyLaser();
          }else if (!isPlayerLaser && other.CompareTag("Player")){
             other.GetComponent<SpaceCraftController>().UnderAttack(1);
-            Destroy(gameObject);
+            DestroyLaser();
          }
+    }
+    void DestroyLaser(){
+        Instantiate(breakParticle, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

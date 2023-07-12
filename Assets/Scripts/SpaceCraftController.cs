@@ -13,6 +13,8 @@ public class SpaceCraftController : MonoBehaviour
     public GameObject laserPrefab;
     public Transform reCalTransform;
     public Transform[] shootPosArray;
+    public GameObject destroyEffect;
+    
     private Transform _Transform;
     private Rigidbody _Rigidbody;
     bool isAlive=true;
@@ -85,6 +87,7 @@ public class SpaceCraftController : MonoBehaviour
         }else if(gameObject.CompareTag("Enemy")){
             GameManager.singleton.GetScore();
         }
+        Instantiate(destroyEffect, _Transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
